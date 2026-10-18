@@ -1,0 +1,23 @@
+
+# Private configuration and secrets
+/form-shield/config/config.php
+.env
+.env.*
+
+# Allow example environment file
+!.env.example
+
+# Composer dependencies
+/vendor/
+
+# IDE settings
+/.idea/
+/.vscode/
+
+# Local database / runtime files
+*.log
+*.sql
+*.sql.gz
+
+!/form-shield/database/schema.sql
+!/form-shield/database/seed.sql
